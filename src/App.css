@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: #0f1012;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.app {
+  min-height: 98.5vh;
+  background-color: #0f1012;
+  color: #d4dce1;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mainImg {
+  padding: 10px 0 5px 0;
+}
